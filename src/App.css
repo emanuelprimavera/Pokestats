@@ -1,0 +1,143 @@
+/* APP MAIN - (PER METTERE FOOTER IN FONDO)*/
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*HOME*/
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.pokeball-pic {
+  width: 50px;
+}
+
+/*SPINNER LOADING*/
+.spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/*SEARCH INPUT*/
+form {
+  display: flex;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  gap: 5px;
+}
+.search-input {
+  border: 2px solid #de1717;
+  border-radius: 6px;
+  color: black;
+  margin: 2px;
+  outline: none;
+}
+.search-input:hover:active {
+  outline: none;
+}
+
+/*SEARCH BUTTON*/
+.search-button {
+  border: none;
+  background-color: #de1717;
+  color: white;
+  margin: 2px;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.search-button:hover,
+.button-logo:hover {
+  background-color: rgb(228, 21, 21);
+}
+.button-logo {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  background-color: #de1717;
+  color: rgb(255, 255, 255);
+}
+
+/*ALERT SE NON CERCHI POKEMON ( SHOW,SETSHOW )*/
+.show-alert {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+/*CARD*/
+.card {
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translate(0px, -4px);
+}
+.types-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.card-img-container {
+  border-left: 1px solid rgb(215, 215, 215);
+}
+.mini-sprite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poke-w-h {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+  gap: 20px;
+}
+.pokemon-w-h p {
+  padding-left: 20px;
+}
+
+.abilities-container {
+  padding-top: 30px;
+  text-align: center;
+}
+.abilities {
+  justify-content: center;
+  padding: 8px;
+  border-top: 1px solid rgb(215, 215, 215);
+}
+.abilities h6 {
+  padding: 5px;
+}
+
+/*FOOTER*/
+.footer-container {
+  margin-top: auto;
+}
+
+#sticky-footer {
+  background-color: #f6f3f3 !important;
+  color: rgb(162, 160, 160) !important;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 880px) {
+  .card-container {
+    margin: 10px;
+  }
+  .card-img-container {
+    border-left: 1px solid white;
+  }
+}
