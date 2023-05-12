@@ -1,6 +1,8 @@
 # Pokestats
 A simple Pokedex Web App, built with React, Bootstrap and POKEAPI.
 
+https://pokestats00.netlify.app/
+
 Built with:
 -REACT JS
 -AXIOS
